@@ -1,0 +1,191 @@
+@CHARSET "UTF-8";
+#header {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 75px; 
+	background-image: linear-gradient(#FFCC22, #CCCCCC 75%);
+	width: 100%;
+	font-family: sans-serif;
+}
+#banner {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	background-image: linear-gradient(#FFCC22, #FFAA22 75%);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: calc(100% - 3px);
+	height: 70px; 
+	
+	
+}
+.current td:first-child {
+	background-image: linear-gradient(#FFCC22, #FFAA22 75%);
+		-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.neu td:first-child {
+	background-image: linear-gradient(#04B404, #00FF00 75%);
+		-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.own td:nth-of-type(3){
+	background-image: linear-gradient(#5882FA, #00BFFF 75%);
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	table-layout: fixed;
+	width: 82%;
+}
+#logout {
+	position: absolute;
+	top: 40%;
+	left: 60%	
+}
+#usernameField {
+	position: absolute;
+	top: 40%;
+	left: calc(60% + 125px);
+}
+#auslogbutton {
+	position: absolute;
+	top: 38%;
+	left: calc(60% + 200px);
+	color: linear-gradient(#6688CC, #66BBCC 75%);
+}
+#output {
+	position: absolute;
+	top: calc(75px + 19px);
+	left: 0%;
+	background-image: linear-gradient(#CCCCCC, #CCCCCC 75%);
+	width: 80%;
+	height: calc(100% - 23px - 75px - 19px); 
+	overflow-y: auto;
+	font-family: sans-serif;
+	/* 	opacity: .50; Standard: FF gt 1.5, Opera, Safari, CSS3
+    filter: alpha(opacity=50); IE lt 8
+    -ms-filter: "alpha(opacity=50)"; IE 8
+    -khtml-opacity: .50; Safari 1.x
+    -moz-opacity: .50; FF lt 1.5, Netscape */}
+#chat-head {
+	top: 75px;
+	left: 0px;
+	width: calc(100% - 300px);
+	position: absolute;
+	background-image: linear-gradient(#6688CC, #66BBCC 75%);
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #000000;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+}
+tbody tr :nth-child(1) {
+	table-layout: fixed;
+	width: 100px;
+	
+}
+tbody tr :nth-child(2) {
+	table-layout: fixed;
+	width: 100px;
+	
+}
+tbody tr:not(.own) td:nth-of-type(3) {
+	background-image: linear-gradient(#FFCC22, #FFAA22 75%);
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	table-layout: fixed;
+	width: 82%;
+}
+thead tr {
+	color: #6688CC;
+}
+#groups {
+	position: absolute;
+	left: calc(100% - 300px);
+	top: calc(75px + 19px);
+	background-image: linear-gradient(#CCCCCC, #EEEEEE 25%);
+	width: 300px%;
+	bottom: 50%;
+	font-family: sans-serif;
+	text-align: center;
+	overflow-y: scroll;
+	overflow-x: none;	
+}
+#groups-head {
+	left: calc(100% - 300px);
+	top: 75px;
+	width: 300px;
+	position: absolute;
+	background-image: linear-gradient(#6688CC, #66BBCC 75%);
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #000000;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+}
+#online {
+	position: absolute;
+	left: calc(100% - 300px);
+	top: calc(50% + 19px);
+	/*background-color: #77FF77;*/
+	background-image: linear-gradient(#CCCCCC, #EEEEEE 25%);
+	width: 300px;
+	height: calc(50% - 19px);
+	font-family: sans-serif;
+	text-align: center;
+	table-layout: fixed;
+	overflow-y: scroll;
+	
+}
+#online-head {
+	left: calc(100% - 300px);
+	top: 50%;
+	width: 300px;
+	position: absolute;
+	background-image: linear-gradient(#6688CC, #66BBCC 75%);
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #000000;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+}
+#input {
+	position: absolute;
+	top: 100%-23px;
+	left: 0%;
+	right: 20%;
+	bottom: 0%;
+	background-color: #BBBBBB;
+	height: 23px;
+	width: calc(100% - 300px);
+}
+#text {
+	width: calc(100% - 5px - 71px);
+	height : 100%;
+}
+#login, #body, #header {
+	display: none
+}
+.no-close .ui-dialog-titlebar-close {
+	display: none
+}
