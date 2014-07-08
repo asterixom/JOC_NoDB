@@ -114,7 +114,7 @@ thead tr {
 	left: calc(100% - 300px);
 	top: calc(75px + 19px);
 	background-image: linear-gradient(#CCCCCC, #EEEEEE 25%);
-	width: 300px%;
+	width: 300px;
 	bottom: 50%;
 	font-family: sans-serif;
 	text-align: center;
